@@ -1,5 +1,5 @@
 import "./Navbar.css";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -13,31 +13,26 @@ const Navbar = () => {
         </h3>
       </div>
       <nav>
-        <img
-          src="src\images\logo.jpg"
-          alt="SCDFA Logo"
-          height={"100px"}
-          width={"100px"}
-        />
+        <img src="src\images\SCDFA.jpg" alt="SCDFA Logo" id="logo" />
         <ul>
-          <li>
+          <Link to="/" className="li">
             <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/media">Media</a>
-          </li>
-          <li>
-            <a href="/news">News</a>
-          </li>
-          <li>
-            <a href="/tournament">Tournament</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
+          </Link>
+          <Link to="/about" className="li">
+            <a href="/">About</a>
+          </Link>
+          <Link to="/media" className="li">
+            <a href="/">Media</a>
+          </Link>
+          <Link to="/news" className="li">
+            <a href="/">News</a>
+          </Link>
+          <Link to="/tournament" className="li">
+            <a href="/">Tournament</a>
+          </Link>
+          <Link to="/contact" className="li">
+            <a href="/">Contact Us</a>
+          </Link>
         </ul>
       </nav>
     </>

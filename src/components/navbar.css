@@ -4,6 +4,10 @@
   justify-content: right;
   align-items: center;
 }
+#logo {
+  height: 6.5vw;
+  width: 6.5vw;
+}
 .nav-header h3 {
   width: 100%;
   font-size: 16px;
@@ -31,25 +35,34 @@ ul {
   list-style: none;
   gap: 1px;
 }
-ul li {
-  width: 6.6vw;
+ul .li {
+  width: 7vw;
   text-align: center;
   background-color: #00000021;
-  padding: 0.5vw 1vw;
 }
 a {
+  padding: 0.5vw;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 0.9vw;
   font-weight: 400;
 }
 
-li:hover {
+.li:hover {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
   transition: all 0.5s ease-in-out;
   a {
     color: rgb(0, 0, 0);
     transition: all 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 1436px) {
+  ul .li {
+    width: 8.8vw;
+  }
+  a {
+    padding: 0.5 0.5vw;
   }
 }
