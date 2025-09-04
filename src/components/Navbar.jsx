@@ -16,22 +16,22 @@ const Navbar = () => {
         <img src="src\images\SCDFA.png" alt="SCDFA Logo" id="logo" />
         <ul>
           <Link to="/" className="li">
-            <a href="/">Home</a>
+            <li>Home</li>
           </Link>
           <Link to="/about" className="li">
-            <a href="/">About</a>
+            <li>About</li>
           </Link>
           <Link to="/media" className="li">
-            <a href="/">Media</a>
+            <li>Media</li>
           </Link>
           <Link to="/news" className="li">
-            <a href="/">News</a>
+            <li>News</li>
           </Link>
           <Link to="/tournament" className="li">
-            <a href="/">Tournament</a>
+            <li>Tournament</li>
           </Link>
           <Link to="/contact" className="li">
-            <a href="/">Contact Us</a>
+            <li>Contact Us</li>
           </Link>
         </ul>
       </nav>

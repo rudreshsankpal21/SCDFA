@@ -38,11 +38,11 @@ ul {
 ul .li {
   width: 7vw;
   text-align: center;
+  text-decoration: none;
   background-color: #00000021;
 }
-a {
+li {
   padding: 0.5vw;
-  text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 0.9vw;
   font-weight: 400;
@@ -52,7 +52,7 @@ a {
   cursor: pointer;
   background-color: rgb(255, 255, 255);
   transition: all 0.5s ease-in-out;
-  a {
+  li {
     color: rgb(0, 0, 0);
     transition: all 0.5s ease-in-out;
   }
@@ -62,7 +62,7 @@ a {
   ul .li {
     width: 8.8vw;
   }
-  a {
+  li {
     padding: 0.5 0.5vw;
   }
 }
