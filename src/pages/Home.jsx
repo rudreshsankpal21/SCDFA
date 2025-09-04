@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
+import Swiper from "../components/swiper";
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <Swiper />
+    </>
   );
 };
 

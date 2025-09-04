@@ -1,7 +1,11 @@
 .footer {
+  margin: 2vw 0;
   height: 8vh;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
