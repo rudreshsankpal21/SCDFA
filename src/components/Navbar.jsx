@@ -13,7 +13,7 @@ const Navbar = () => {
         </h3>
       </div>
       <nav>
-        <img src="src\images\SCDFA.jpg" alt="SCDFA Logo" id="logo" />
+        <img src="src\images\SCDFA.png" alt="SCDFA Logo" id="logo" />
         <ul>
           <Link to="/" className="li">
             <a href="/">Home</a>
