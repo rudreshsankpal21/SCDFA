@@ -17,35 +17,41 @@ export default function App() {
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
           <div className="slide-container">
+            <img src="../src/images/img1.jpg" alt="" className="slides" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide-container">
+            <img src="src\images\img2.jpg" alt="" className="slides" />
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="slide-container">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjGudDEgUF272W6YLuWSx0Cr55q6OSYXmj4w&s"
+              src="src\images\img3.jpg"
               alt=""
               className="slides"
+              id="img3"
             />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="slide-container">
-            <img src="src\images\SCDFA.png" alt="" className="slides" />
+            <img src="src\images\img4.jpg" alt="" className="slides" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="slide-container">
-            <img src="src\images\SCDFA.png" alt="" className="slides" />
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="slide-container">
-            <img src="src\images\SCDFA.png" alt="" className="slides" />
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className="slide-container">
-            <img src="src\images\SCDFA.png" alt="" className="slides" />
+            <img
+              src="src\images\img5.png"
+              alt=""
+              className="slides"
+              id="img5"
+            />
           </div>
         </SwiperSlide>
       </Swiper>
