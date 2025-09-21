@@ -10,6 +10,14 @@ const Home = () => {
       <div className="hero-section">
         <Swiper />
       </div>
+      <div className="section-2">
+        <h1>Our Initiatives</h1>
+        <div className="info">
+          <div className="card"></div>
+          <div className="card"></div>
+          <div className="card"></div>
+        </div>
+      </div>
     </>
   );
 };

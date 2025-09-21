@@ -20,3 +20,30 @@
   color: #040131;
   transition: all 0.5s ease-in-out;
 }
+
+.section-2 {
+  margin: 6vw 0;
+  width: 100%;
+}
+h1 {
+  margin-left: 12vw;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.info {
+  height: 30vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2vw;
+}
+
+.info .card {
+  height: 25vw;
+  width: 30vw;
+  background-color: red;
+}
